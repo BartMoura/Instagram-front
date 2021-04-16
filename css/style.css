@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box; /*todas as regras vão funcionar apenas para o elemento */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+main {
+    display: flex; /* todos os elementos centralizam */
+    justify-content: center; /* alinhamento na horizontal */
+    align-items: center; /* alinhamento na vertical */
+    padding: 50px 0px; /* 50px para cima e para baixo, 0 para laterais*/
+}
+
+#cadastre-texto {
+    color:black;
+}
+
+#texto {
+    font-size: 14px;
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 40px 20px;
+    margin: 30px;
+}
+
+.login form input {
+    width: 100%;
+    height: 30px;
+    margin: 7px 0;
+    padding: 5px;
+    text-align: justify;
+    border-radius: 3px; /* arredondar elementos */
+    border: 1px solid #ccc;
+}
+
+.login form button {
+    background-color: #0095f6;
+    color: #fff;
+    padding: 7px 10px;
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.cta-cadastre {
+    border: 1px solid #ccc;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+
+/* registro.html */
+
+.logo-registro {
+    width: 100px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registro {
+    width: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 40px 20px;
+    margin: 30px;
+}
+
+.registro form input {
+    width: 100%;
+    height: 30px;
+    margin: 7px 0;
+    padding: 5px;
+    text-align: justify;
+    border-radius: 3px; /* arredondar elementos */
+    border: 1px solid #ccc;
+}
+
+.registro form button {
+    background-color: #0095f6;
+    color: #fff;
+    padding: 7px 10px;
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.registro form p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.cta-conecte {
+    border: 1px solid #ccc;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+
+#conecte-texto {
+    color: black;
+}
+
+/* index.html */
+
+.caixa {
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.topo {
+    display: flex; 
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px
+}
+
+.username {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.pontinhos {
+    margin-left: 410px;
+}
+/*
+.post {
+    display: flex;
+}
+*/
+.post-text {
+    margin-left: 10px;
+}
+
+.icons {
+    display: flex;
+}
+
+.likes {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 32px;
+    height: 26px;
+}
+
+.comentar {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 32px;
+    height: 26px;
+}
+
+.direct {
+    margin-left: 6px;
+    margin-top: 5px;
+    width: 32px;
+    height: 26px;
+}
+
+.bola1 {
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 165px;
+    height: 8px;
+    width: 8px;
+    background-color: rgb(17, 148, 255);
+}
+
+.bola2 {
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    height: 8px;
+    width: 8px;
+    background-color: gray;
+}
+
+.bola3 {
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    height: 8px;
+    width: 8px;
+    background-color: gray;
+}
+
+.bola4 {
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    height: 8px;
+    width: 8px;
+    background-color: gray;
+}
+
+.salvar {
+    margin-left: 225px;
+    margin-top: -10px;
+    width: 32px;
+    height: 30px;
+}
+
+.curtidas {
+    display: flex;
+    margin-top: -25px;
+}
+
+.friend {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    margin-left: 13px;
+}
+
+.liked-texto {
+    margin-top: 13px;
+}
+
+.post {
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.comments {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.vermais {
+    color: grey;
+}
+
+.hora {
+    color: grey;
+    font-size: 12px;
+}
+
+.adicionar-comentario {
+    display: flex;
+    border-top: 1px solid lightgrey;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.smiley {
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+#postar {
+    border: none;
+    margin-top: 5px;
+    font-size: 14px;
+    width: 500px;
+}
+
+#publicar {
+    font-size: 14px;
+    margin-top: 20px;
+    color: rgb(17, 148, 255);
+}
